@@ -31,30 +31,27 @@
   /*              Images                           */
   /* ============================================= */
   
-  .img-avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: $full; 
-    max-height: $full;
+  .img  {
+    
+      &-avatar {
+      display: block;
+      @include marginauto;
+      margin-top: 10px;
+      max-width: $full; 
+      max-height: $full;
+    }
+    
+    &-frame {
+      display: block;
+      @include marginauto;
+      margin-top: 10px;
+      max-width: $full;
+      padding: 13px;
+      border: 1px solid #ccc;
+    }
+    
+    &-logo {
+      display: block;
+      @include marginauto;
+    }
   }
-  
-  .img-frame {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: $full;
-    padding: 13px;
-    border: 1px solid #ccc;
-  }
-  
-  .img-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-  

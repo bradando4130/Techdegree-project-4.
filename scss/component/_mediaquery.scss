@@ -6,14 +6,12 @@
     .container {
         max-width: $maxw;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        @include marginauto;
     }
 
     .centered {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        @include marginauto;
     }
 
     .row {
@@ -101,4 +99,4 @@
         margin-left: initial;
         margin-right: initial;
     }
-    }
+}
